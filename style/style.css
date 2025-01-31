@@ -1,29 +1,40 @@
-#banner{
+#banner {
     text-align: center;
-    background-color: rgb(156, 94, 1);
+    background-color: rgb(108, 39, 2);
     padding: 75px;
     margin: -10px;
 }
 
-.center{
+.center {
     align-content: center;
 }
-ul{
+
+ul {
     list-style: none;
     text-align: center;
 }
-li{
+
+li {
     display: inline;
 }
-li a{
+
+li a {
     text-decoration: none;
-    color: green;
-    padding: 10px;
+    color: rgb(4, 142, 4);
+    padding: 10px 15px; /* Adjust padding for a more rectangular shape */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background */
 }
 
-body{
-    background-color: rgb(212, 153, 75);
+li a:hover {
+    color: rgb(108, 39, 2); /* Change color on hover (orange) */
+    border-radius: 3px; /* Slightly rounded corners */
+    padding: 5px 10px; /* Smaller padding for a thinner and smaller hover effect */
 }
-footer{
+
+body {
+    background-color: rgb(187, 144, 88);
+}
+
+footer {
     text-align: center;
 }
